@@ -11,7 +11,7 @@ import SwiftUI
 struct MonsterBookSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MonsterListContent()
         }
     }
 }

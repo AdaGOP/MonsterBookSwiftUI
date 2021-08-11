@@ -13,6 +13,20 @@
 		552B4AA126C2665A002443F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552B4AA026C2665A002443F7 /* Preview Assets.xcassets */; };
 		552B4AAC26C2665A002443F7 /* MonsterBookSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B4AAB26C2665A002443F7 /* MonsterBookSwiftUITests.swift */; };
 		552B4AB726C2665A002443F7 /* MonsterBookSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B4AB626C2665A002443F7 /* MonsterBookSwiftUIUITests.swift */; };
+		5580033526C2695600081EC9 /* MonsterDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580033426C2695600081EC9 /* MonsterDetailContent.swift */; };
+		5580033726C26E2800081EC9 /* TextFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580033626C26E2800081EC9 /* TextFieldRow.swift */; };
+		5580033B26C2703900081EC9 /* TextEditorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580033A26C2703900081EC9 /* TextEditorRow.swift */; };
+		5580034526C2764B00081EC9 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580034426C2764B00081EC9 /* Monster.swift */; };
+		5580034826C2768000081EC9 /* SeederStaticDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580034726C2768000081EC9 /* SeederStaticDataStore.swift */; };
+		5580034A26C276A900081EC9 /* SeederCoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580034926C276A900081EC9 /* SeederCoreDataStore.swift */; };
+		5580034C26C276C200081EC9 /* SeederNetworkDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580034B26C276C200081EC9 /* SeederNetworkDataStore.swift */; };
+		5580034E26C276DE00081EC9 /* MonsterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580034D26C276DE00081EC9 /* MonsterRepository.swift */; };
+		5580035026C2776000081EC9 /* MBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580034F26C2776000081EC9 /* MBColor.swift */; };
+		5580035226C277E100081EC9 /* PickerViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580035126C277E100081EC9 /* PickerViewRow.swift */; };
+		5580035626C2790A00081EC9 /* MonsterImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580035526C2790A00081EC9 /* MonsterImageRow.swift */; };
+		5580035C26C3AC0E00081EC9 /* MonsterListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580035B26C3AC0E00081EC9 /* MonsterListContent.swift */; };
+		5580035E26C3AC4E00081EC9 /* MonsterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580035D26C3AC4E00081EC9 /* MonsterRow.swift */; };
+		5580036026C3AC7100081EC9 /* YourCoreComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580035F26C3AC7100081EC9 /* YourCoreComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +59,20 @@
 		552B4AB226C2665A002443F7 /* MonsterBookSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterBookSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		552B4AB626C2665A002443F7 /* MonsterBookSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBookSwiftUIUITests.swift; sourceTree = "<group>"; };
 		552B4AB826C2665A002443F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5580033426C2695600081EC9 /* MonsterDetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailContent.swift; sourceTree = "<group>"; };
+		5580033626C26E2800081EC9 /* TextFieldRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldRow.swift; sourceTree = "<group>"; };
+		5580033A26C2703900081EC9 /* TextEditorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorRow.swift; sourceTree = "<group>"; };
+		5580034426C2764B00081EC9 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		5580034726C2768000081EC9 /* SeederStaticDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeederStaticDataStore.swift; sourceTree = "<group>"; };
+		5580034926C276A900081EC9 /* SeederCoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeederCoreDataStore.swift; sourceTree = "<group>"; };
+		5580034B26C276C200081EC9 /* SeederNetworkDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeederNetworkDataStore.swift; sourceTree = "<group>"; };
+		5580034D26C276DE00081EC9 /* MonsterRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterRepository.swift; sourceTree = "<group>"; };
+		5580034F26C2776000081EC9 /* MBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBColor.swift; sourceTree = "<group>"; };
+		5580035126C277E100081EC9 /* PickerViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewRow.swift; sourceTree = "<group>"; };
+		5580035526C2790A00081EC9 /* MonsterImageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterImageRow.swift; sourceTree = "<group>"; };
+		5580035B26C3AC0E00081EC9 /* MonsterListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterListContent.swift; sourceTree = "<group>"; };
+		5580035D26C3AC4E00081EC9 /* MonsterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterRow.swift; sourceTree = "<group>"; };
+		5580035F26C3AC7100081EC9 /* YourCoreComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourCoreComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +123,9 @@
 		552B4A9826C26658002443F7 /* MonsterBookSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5580033E26C275DA00081EC9 /* Feature */,
+				5580033826C2700400081EC9 /* Themes */,
+				5580034126C2761D00081EC9 /* Utilities */,
 				552B4A9926C26658002443F7 /* MonsterBookSwiftUIApp.swift */,
 				552B4A9B26C26658002443F7 /* ContentView.swift */,
 				552B4A9D26C2665A002443F7 /* Assets.xcassets */,
@@ -128,6 +159,137 @@
 				552B4AB826C2665A002443F7 /* Info.plist */,
 			);
 			path = MonsterBookSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		5580033826C2700400081EC9 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				5580035826C29C4600081EC9 /* Colors */,
+				5580033926C2701100081EC9 /* Components */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		5580033926C2701100081EC9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5580035F26C3AC7100081EC9 /* YourCoreComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5580033C26C275B500081EC9 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				5580035926C3AA3D00081EC9 /* MonsterList */,
+				5580035326C2789000081EC9 /* MonsterDetail */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		5580033D26C275BD00081EC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5580034626C2766A00081EC9 /* DataStore */,
+				5580034D26C276DE00081EC9 /* MonsterRepository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5580033E26C275DA00081EC9 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				5580033F26C275E400081EC9 /* MonsterPresentation */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		5580033F26C275E400081EC9 /* MonsterPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				5580033D26C275BD00081EC9 /* Model */,
+				5580033C26C275B500081EC9 /* Pages */,
+			);
+			path = MonsterPresentation;
+			sourceTree = "<group>";
+		};
+		5580034126C2761D00081EC9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5580034226C2763B00081EC9 /* CoreData */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5580034226C2763B00081EC9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5580034326C2764100081EC9 /* Model */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5580034326C2764100081EC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5580034426C2764B00081EC9 /* Monster.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5580034626C2766A00081EC9 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				5580034726C2768000081EC9 /* SeederStaticDataStore.swift */,
+				5580034926C276A900081EC9 /* SeederCoreDataStore.swift */,
+				5580034B26C276C200081EC9 /* SeederNetworkDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		5580035326C2789000081EC9 /* MonsterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5580035426C278F700081EC9 /* Component */,
+				5580033426C2695600081EC9 /* MonsterDetailContent.swift */,
+			);
+			path = MonsterDetail;
+			sourceTree = "<group>";
+		};
+		5580035426C278F700081EC9 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5580035126C277E100081EC9 /* PickerViewRow.swift */,
+				5580033626C26E2800081EC9 /* TextFieldRow.swift */,
+				5580033A26C2703900081EC9 /* TextEditorRow.swift */,
+				5580035526C2790A00081EC9 /* MonsterImageRow.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		5580035826C29C4600081EC9 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				5580034F26C2776000081EC9 /* MBColor.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		5580035926C3AA3D00081EC9 /* MonsterList */ = {
+			isa = PBXGroup;
+			children = (
+				5580035A26C3ABFB00081EC9 /* Component */,
+				5580035B26C3AC0E00081EC9 /* MonsterListContent.swift */,
+			);
+			path = MonsterList;
+			sourceTree = "<group>";
+		};
+		5580035A26C3ABFB00081EC9 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5580035D26C3AC4E00081EC9 /* MonsterRow.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +422,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				552B4A9C26C26658002443F7 /* ContentView.swift in Sources */,
+				5580035E26C3AC4E00081EC9 /* MonsterRow.swift in Sources */,
 				552B4A9A26C26658002443F7 /* MonsterBookSwiftUIApp.swift in Sources */,
+				5580035026C2776000081EC9 /* MBColor.swift in Sources */,
+				5580034C26C276C200081EC9 /* SeederNetworkDataStore.swift in Sources */,
+				5580035626C2790A00081EC9 /* MonsterImageRow.swift in Sources */,
+				5580033B26C2703900081EC9 /* TextEditorRow.swift in Sources */,
+				5580034E26C276DE00081EC9 /* MonsterRepository.swift in Sources */,
+				5580033726C26E2800081EC9 /* TextFieldRow.swift in Sources */,
+				5580035C26C3AC0E00081EC9 /* MonsterListContent.swift in Sources */,
+				5580035226C277E100081EC9 /* PickerViewRow.swift in Sources */,
+				5580034A26C276A900081EC9 /* SeederCoreDataStore.swift in Sources */,
+				5580034526C2764B00081EC9 /* Monster.swift in Sources */,
+				5580036026C3AC7100081EC9 /* YourCoreComponent.swift in Sources */,
+				5580033526C2695600081EC9 /* MonsterDetailContent.swift in Sources */,
+				5580034826C2768000081EC9 /* SeederStaticDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
